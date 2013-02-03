@@ -216,6 +216,7 @@ h3 {
     border-bottom: 5px solid white;
     font-size: 1.6em;
     line-height: 1;
+    text-decoration: none;
     padding: 0 0 0.25em 0; }
   .nav a:hover, .nav a:active {
     text-decoration: none;
@@ -340,22 +341,6 @@ h3 {
     text-align: center; }
   .logo:hover, .logo:active {
     color: #7AC402; }
-
-  .nav {
-    margin: 10px 0; }
-    .nav a:link, .nav a:visited {
-      border: none;
-      text-align: center;
-      margin: 0;
-      display: block;
-      width: 50%;
-      padding: 10px 0 0 0;
-      height: 22px;
-      float: left;
-      font-size: 1.6em; }
-    .nav a:hover, .nav a:active {
-      background: #7AC402; }
-
 
   .headline-content {
     height: auto; }

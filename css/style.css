@@ -377,11 +377,6 @@ h3 {
   color: #272c37;
   text-shadow: none; }
 
-::selection {
-  background: #7ac402;
-  color: #272c37;
-  text-shadow: none; }
-
 .last {
   margin-right: 0; }
 

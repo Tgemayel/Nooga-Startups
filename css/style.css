@@ -316,12 +316,60 @@ h3 {
 .startups-info .skills {
   font-style: italic; }
 
-
 .colophon {
   float: left;
   font-size: 1.6em; }
   .colophon .smallprint {
     font-size: 0.8em; }
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 52.5%; }
+
+  header {
+    height: 110px; }
+
+  .logo,
+  .nav {
+    float: none;
+    width: 100%; }
+
+  .logo:link, .logo:visited {
+    margin: 10px 0;
+    border: none;
+    text-align: center; }
+  .logo:hover, .logo:active {
+    color: #7AC402; }
+
+  .nav {
+    margin: 10px 0; }
+    .nav a:link, .nav a:visited {
+      border: none;
+      text-align: center;
+      margin: 0;
+      display: block;
+      width: 50%;
+      padding: 10px 0 0 0;
+      height: 22px;
+      float: left;
+      font-size: 1.6em; }
+    .nav a:hover, .nav a:active {
+      background: #7AC402; }
+
+
+  .headline-content {
+    height: auto; }
+
+  .contact-details p .contact-detail {
+    font-size: 2.4em; }
+
+  .startups .wrapper {
+    max-width: 324px; }
+
+  .startups-entry {
+    float: none;
+    width: 100%;
+    margin-right: 0; } }
 
 
 ::-moz-selection {

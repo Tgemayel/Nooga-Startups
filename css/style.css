@@ -144,7 +144,7 @@ a {
 
 a:link,
 a:visited {
-  color: #3b5e01;
+  color: #2b4501;
   text-decoration: none;
   font-weight: bold; }
 
@@ -172,7 +172,7 @@ footer {
 }
 footer p {
     color: #fff;
-    width: 55%;
+    width: 69%;
   }
 
 /* Vertical Rhythm */

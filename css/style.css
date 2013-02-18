@@ -158,7 +158,23 @@ h2,
 h3 {
   font-weight: bold;
   line-height: 1.3;
-   }
+}
+
+h3 {
+  color:#ddd;
+  text-align:center;
+  font-size:3.0em;
+  text-shadow: 0 1px 2px rgba(0,0,0,.4);
+}
+
+h3 a:link, h3 a:active, h3 a:visited {
+  color:#bbb;
+  text-decoration:none;
+}
+
+h3 a:hover {
+  color:#fff;
+}
 
 h1 {
   font-size: 3em; }
@@ -205,13 +221,14 @@ h3 {
 
 .nav {
   margin: 44px 0 0 0;
-  float: right; }
+  text-align:center;
+}
   .nav a:link, .nav a:visited {
     color: #272c37;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: normal;
-    margin: 0 0 0 1.5em;
+    margin: 0 0.75em;
     border-bottom: 5px solid white;
     font-size: 1.6em;
     line-height: 1;
@@ -219,21 +236,37 @@ h3 {
     padding: 0 0 0.25em 0; }
   .nav a:hover, .nav a:active {
     text-decoration: none;
-    border-bottom: 5px solid #7ac402; }
+    border-bottom: 5px solid #7ac402;
+  }
 
 .hero-image {
-  height: 580px;
+  height:300px;
+  width:100%;
+  position:relative;
   background-image: url("http://f.cl.ly/items/1U26081q160Y0Z0m0C3L/blur.jpg");
   display: block;
+  background-size:cover;
 }
-
+.hero-image .wrap {
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  display:table;
+}
+.hero-image .inner {
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+}
 .hero-image h1 {
-  text-align: center;
-  color: #fff;
-  font-size: 100px;
-  font-family: 'ChatypeB2.1MediumMedium';
-  padding-top: 205px;
-  text-shadow: 0 1px 2px rgba(0,0,0,.4);
+    text-align: center;
+    color: #fff;
+    font-size: 53px;
+    padding:0 0.5em;
+    font-family: 'ChatypeB2.1MediumMedium';
+    text-shadow: 0 1px 2px rgba(0,0,0,.4);
 }
 
 .startups-content {
@@ -412,3 +445,22 @@ h3 {
 
 .cf {
   *zoom: 1; }
+
+@media only screen and (min-width:768px) {
+
+  .nav {
+    float:right;
+  }
+
+  .nav a:link, .nav a:visited {
+    margin: 0 0 0 1.5em;
+  }
+
+  .hero-image {
+    height: 580px;
+  }
+
+  .hero-image h1 {
+    font-size: 100px;
+  }
+}

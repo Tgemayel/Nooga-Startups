@@ -29,21 +29,21 @@ For those new to GitHub (we've all been there):
 
 1. Install git on your computer:
 
-    sudo apt-get install git-core # Ubuntu
-    sudo port install git-core # Mac OSX
+        sudo apt-get install git-core # Ubuntu
+        sudo port install git-core # Mac OSX
 
 2. Fork the Nooga-Startups repository by clicking on the Fork Button in the top right corner of this page.
 
 3. Open up your terminal and run the following:
 
-    git clone https://github.com/<your_username_here>/Nooga-Startups.git
+        git clone https://github.com/<your_username_here>/Nooga-Startups.git
 
 4. Make your changes and push to your fork:
 
-    git status # Shows what files you modified
-    git add <modified files> # Do this for every file
-    git commit -m "<comment your commit here>"
-    git push https://github.com/<your_username_here>/Nooga-Startups.git
+        git status # Shows what files you modified
+        git add <modified files> # Do this for every file
+        git commit -m "<comment your commit here>"
+        git push https://github.com/<your_username_here>/Nooga-Startups.git
 
 5. Submit a pull request by clicking on the Pull Request button in Github
 

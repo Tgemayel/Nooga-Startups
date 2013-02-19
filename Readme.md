@@ -25,13 +25,15 @@ Software is eating the world and the most successful economies of tomorrow are b
 
 The easiest way is to submit a [pull request](https://github.com/Tgemayel/Nooga-Startups/pulls). Tweet [@NoogaStartups](http://twitter.com/noogastartups) if you need help.
 
+Please note that at this time we are only looking for product-focused tech startups featuring a website our users can visit to learn more.
+
 For those new to GitHub (we've all been there):
 
 1. Install git on your computer:
 
-        sudo apt-get install git-core # Ubuntu
-        sudo port install git-core # Mac OSX
-
+        sudo apt-get install git-core # Ubuntu 
+        brew install git-core # OS X
+        
 2. Fork the Nooga-Startups repository by clicking on the Fork Button in the top right corner of this page.
 
 3. Open up your terminal and run the following:

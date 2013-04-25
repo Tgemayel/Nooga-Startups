@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 nav {
-  font-family: "ChatypeB2.1RegularRegular",sans-serif;
+  font-family: "proxima-nova",sans-serif;
 }
 
 b, strong {
@@ -143,7 +143,7 @@ a {
 
 a:link,
 a:visited {
-  color: #2b4501;
+  color: #003a51;
   text-decoration: none; }
 
 a:hover,
@@ -166,12 +166,14 @@ h3 {
 }
 
 h3 a:link, h3 a:active, h3 a:visited {
-  color:#bbb;
+  color:#fff;
   text-decoration:none;
+  opacity: .6;
 }
 
 h3 a:hover {
   color:#fff;
+  opacity: 1;
 }
 
 h1 {
@@ -181,7 +183,7 @@ h2 {
   font-size: 2em; }
 
 footer {
-  background: #5a9101;
+  background: #328cb5;
   padding: 40px 0;
 }
 footer p {
@@ -228,6 +230,7 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: normal;
+    font-family: "proxima-nova";
     margin: 0 0.75em;
     border-bottom: 5px solid white;
     font-size: 1.6em;
@@ -308,7 +311,7 @@ h3 {
     background: #f1f0ee; }
   .content.startups {
     padding: 55px 0;
-    background: #cccccc; }
+    background: #b5c2c7; }
 
 .column {
   margin: 0 5% 0 0; }
@@ -339,8 +342,8 @@ h3 {
   .startups-entry:hover, .startups-entry:active {
     text-decoration: none; }
     .startups-entry:hover h2, .startups-entry:active h2 {
-      background: #bab8b3;
-      color: #fff;
+      background: #f5f5f5;
+      color: #868f94;
     }
 
 .startups-info h1 {
@@ -353,7 +356,7 @@ h3 {
   float: left;
   font-size: 1.6em; }
   .colophon .smallprint {
-    font-size: 0.8em; }
+    font-size: 1em; }
 
 @media only screen and (max-width: 600px) {
   body {

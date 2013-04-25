@@ -126,7 +126,7 @@ html {
   -webkit-text-size-adjust: none; }
 
 body {
-  color: #272c37;
+  color: #444;
   font-size: 62.5%;
   line-height: 1.4;
   font-family: "ChatypeB2.1RegularRegular",sans-serif;
@@ -208,7 +208,7 @@ h3 {
   margin: 0 auto; }
 
 .logo:link, .logo:visited {
-  color: #272c37;
+  color: #444;
   display: block;
   margin: 35px 0 0 0;
   float: left;
@@ -218,7 +218,7 @@ h3 {
   line-height: 1;
   padding: 0 0 0.25em 0; }
 .logo:hover, .logo:active {
-  border-bottom: 5px solid #7ac402;
+  border-bottom: 5px solid #868f94;
   text-decoration: none; }
 
 .nav {
@@ -226,7 +226,7 @@ h3 {
   text-align:center;
 }
   .nav a:link, .nav a:visited {
-    color: #272c37;
+    color: #444;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: normal;
@@ -239,7 +239,7 @@ h3 {
     padding: 0 0 0.25em 0; }
   .nav a:hover, .nav a:active {
     text-decoration: none;
-    border-bottom: 5px solid #7ac402;
+    border-bottom: 5px solid #868f94;
   }
 
 .hero-image {
@@ -299,7 +299,7 @@ h3 {
   margin: 0 0 20px 0; }
 .site-link:hover, .site-link:active {
   background: #7ac402;
-  color: #272c37;
+  color: #444;
   text-decoration: none; }
 
 .content {
@@ -337,7 +337,7 @@ h3 {
   .startups-entry h2 {
     background: white;
     padding: 12px 10px 9px 10px;
-    color: #272c37;
+    color: #444;
     margin: 0; }
   .startups-entry:hover, .startups-entry:active {
     text-decoration: none; }
@@ -394,7 +394,7 @@ h3 {
 
 ::-moz-selection {
   background: #7ac402;
-  color: #272c37;
+  color: #444;
   text-shadow: none; }
 
 .last {

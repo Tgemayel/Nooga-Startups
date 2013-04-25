@@ -136,8 +136,7 @@ header {
   height: 100px;
   background: white;
   z-index: 1;
-  position: relative;
-  border-bottom: 1px solid #E8E4DC; }
+  position: relative; }
 
 a {
   transition: all 0.5s ease; }
@@ -145,8 +144,7 @@ a {
 a:link,
 a:visited {
   color: #2b4501;
-  text-decoration: none;
-  font-weight: bold; }
+  text-decoration: none; }
 
 a:hover,
 a:active,
@@ -189,6 +187,7 @@ footer {
 footer p {
     color: #fff;
     width: 69%;
+    font-family: "proxima-nova";
   }
 
 /* Vertical Rhythm */
@@ -213,6 +212,7 @@ h3 {
   float: left;
   font-family: 'ChatypeB2.1RegularRegular';
   font-size: 30px;
+  font-weight: bold;
   line-height: 1;
   padding: 0 0 0.25em 0; }
 .logo:hover, .logo:active {
@@ -308,7 +308,7 @@ h3 {
     background: #f1f0ee; }
   .content.startups {
     padding: 55px 0;
-    background: #EDEAE4; }
+    background: #cccccc; }
 
 .column {
   margin: 0 5% 0 0; }

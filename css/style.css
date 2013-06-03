@@ -48,6 +48,10 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: "ChatypeB2.1RegularRegular",sans-serif;
 }
 
+p {
+  font-size: 14px;
+}
+
 nav {
   font-family: "proxima-nova",sans-serif;
 }
@@ -136,7 +140,13 @@ header {
   height: 100px;
   background: white;
   z-index: 1;
-  position: relative; }
+  position: relative; 
+}
+
+.about {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
 
 a {
   transition: all 0.5s ease; }
@@ -413,6 +423,10 @@ h3 {
 
 .ir br {
   display: none; }
+
+.about-list {
+  font-size: 14px;
+}
 
 .hidden {
   display: none !important;

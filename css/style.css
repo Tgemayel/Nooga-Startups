@@ -323,10 +323,10 @@ h3 {
 
 .startups-entry {
   float: left;
-  width: 30%;
+  width: 21%;
   margin: 0 5% 5% 0;
   display: block; }
-  .startups-entry:nth-child(3n+3) {
+  .startups-entry:nth-child(4n+4) {
     margin-right: 0; }
   .startups-entry img {
     width: 100%;

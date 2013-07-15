@@ -140,7 +140,7 @@ header {
   height: 100px;
   background: white;
   z-index: 1;
-  position: relative; 
+  position: relative;
 }
 
 .about {
@@ -190,7 +190,7 @@ h1 {
   font-size: 3em; }
 
 h2 {
-  font-size: 2em; }
+  font-size: 1.9em; }
 
 footer {
   background: #328cb5;

@@ -368,6 +368,11 @@ h3 {
   .colophon .smallprint {
     font-size: 1em; }
 
+.job-position{
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     font-size: 52.5%; }

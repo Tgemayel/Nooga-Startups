@@ -21,6 +21,25 @@ It's time to get the secret out... Chattanooga has an emerging tech scene, a thr
 
 Software is eating the world and the most successful economies of tomorrow are building around this. Our goal is for Chattanooga to be one of these economies and it's time to build the buzz and bring in the talent.
 
+# How can I run this project?
+
+First, make sure that you have ruby installed locally 
+
+        ruby -v 
+
+Then grab the dependecies with bundler 
+
+
+        bundle install 
+
+Next, run the rails server & navigate to port 3000
+
+        bundle exec rails s 
+        # server running on localhost:3000
+
+
+
+
 # How can I get my startup added to this list?
 
 The easiest way is to submit a [pull request](https://github.com/Tgemayel/Nooga-Startups/pulls). Tweet [@NoogaStartups](http://twitter.com/noogastartups) if you need help.

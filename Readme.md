@@ -1,5 +1,8 @@
 # What is this I don't even?
 
+![](http://i.imgur.com/zUzEmZk.jpg)
+
+
 Welcome to Nooga Startups, a directory of the awesome startups located in Chattanooga, Tennessee. It was inspired by sites like [Made in New York](http://nytm.org/made/).
 
 # Chatta-what?

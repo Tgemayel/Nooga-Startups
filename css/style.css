@@ -348,6 +348,9 @@ h3 {
     background: white;
     padding: 12px 10px 9px 10px;
     color: #444;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     margin: 0; }
   .startups-entry:hover, .startups-entry:active {
     text-decoration: none; }
@@ -371,6 +374,18 @@ h3 {
 .job-position{
   font-size: 1.6em;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px) {
+  .startups-entry {
+    float: left;
+    width: 30%;
+    margin: 0 5% 5% 0;
+    display: block; }
+    .startups-entry:nth-child(4n+4) {
+      margin-right: 5%; }
+    .startups-entry:nth-child(3n+3) {
+      margin-right: 0; }
 }
 
 @media only screen and (max-width: 600px) {

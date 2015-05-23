@@ -20,13 +20,14 @@ class JobsController < ApplicationController
   end
 
   def create
-  	@job = Job.new(jobs_params)
+    @job = Job.new(jobs_params)
+    @job.user = current_user
 
-  	if @job.save
-  	  redirect_to @job
-  	else
-  	  render "New"
-  	end
+    if @job.save
+      redirect_to @job
+    else
+      render "New"
+    end
   end
 
   def edit

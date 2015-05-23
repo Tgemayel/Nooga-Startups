@@ -9,7 +9,13 @@ class JobsController < ApplicationController
   end
 
   def new
-    redirect_to new_user_session_path unless user_signed_in?
+
+    # Make sure that a user session is active before creating a job.
+    unless user_signed_in?
+      store_location_for(:user, new_job_path)
+      redirect_to new_user_session_path
+    end
+
     @job = Job.new
   end
 

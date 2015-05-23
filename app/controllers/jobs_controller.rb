@@ -1,5 +1,6 @@
 class JobsController < ApplicationController
   before_action :find_job, only: [:show, :edit, :update, :destroy]
+  load_and_authorize_resource
 
   def index
   	@jobs = Job.all.order("created_at DESC")
@@ -43,7 +44,7 @@ class JobsController < ApplicationController
 
   def destroy
     @job.destroy
-    redirect_to root_path
+    redirect_to jobs_path
   end
 
   private

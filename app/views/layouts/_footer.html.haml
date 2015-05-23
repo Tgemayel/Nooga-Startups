@@ -1,11 +1,13 @@
 %footer
   .row
-    .small-8.columns
-      %p
-        Created by the 
-        %a{:href => "https://twitter.com/tonigemayel/fanjam/members"} FanJam team
-        and our awesome
-        %a{:href => "https://github.com/Tgemayel/Nooga-Startups/graphs/contributors"} community.
-    .small-4.columns
-
-
+    .large-12.columns
+      - unless homepage?
+        %hr
+      .row
+        .large-8.columns
+          %p
+            Created by the
+            %a{:href => "https://twitter.com/tonigemayel/fanjam/members"} FanJam team
+            and our awesome
+            %a{:href => "https://github.com/Tgemayel/Nooga-Startups/graphs/contributors"} community.
+        .large-4.columns

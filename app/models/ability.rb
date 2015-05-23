@@ -9,7 +9,9 @@ class Ability
     can :new, Job
     
     # Signed in user abilities
-    #
+    if user.persisted?
+      can :create, Job
+    end
 
     # Users that own a Job
     can :edit, Job do |job|

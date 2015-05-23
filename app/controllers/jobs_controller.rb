@@ -9,7 +9,8 @@ class JobsController < ApplicationController
   end
 
   def new
-  	@job = Job.new
+    redirect_to new_user_session_path unless user_signed_in?
+    @job = Job.new
   end
 
   def create

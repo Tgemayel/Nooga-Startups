@@ -25,7 +25,7 @@
                 .large-3.columns
                   %label.inline Description
                 .large-9.columns  
-                  = f.input :description, rows: "8", label: false 
+                  = f.input :description, rows: "20", label: false, placeholder: 'add some markdown for lists, headers, etc.'
               .row.collapse
                 .large-3.columns
                   %label.inline Company Name
@@ -43,6 +43,11 @@
                   = f.input :email, placeholder: 'user@domain.com', label: false 
 
               = f.button :submit, :class => "a button left"
+
+            
+
+      %a{href: "/pages/jobs"} Back to job board
+
 
     .large-4.columns
       .panel

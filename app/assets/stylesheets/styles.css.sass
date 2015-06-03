@@ -154,6 +154,69 @@ video#bgvid
   table tr.even, table tr.alt, table tr:nth-of-type(even), table thead, table tfoot
     background: #e8ebed
 
+
+// Job Post Formatting
+
+.job-post 
+
+  h1, h2, h3, h4 
+    font-family: "proxima-nova-soft"
+    font-weight: 500
+  p 
+    font-size: 1.3rem
+    color: rgba(0,0,0,0.6)
+  h1 
+    font-size: 48px
+  h2 
+    font-size: 36px
+    margin: 24px 0 6px
+  h3 
+    font-size: 24px
+  h4 
+    font-size: 21px
+  h5 
+    font-size: 18px
+  a 
+    color: #0099ff
+    margin: 0
+    padding: 0
+    vertical-align: baseline
+  ul, ol 
+    padding: 0
+    margin: 0
+  li 
+    line-height: 24px
+  ul, ol 
+    font-size: 16px
+    line-height: 24px
+    max-width: 540px
+  pre 
+    padding: 0px 24px
+    max-width: 800px
+    white-space: pre-wrap
+  code 
+    font-family: Consolas, Monaco, Andale Mono, monospace
+    line-height: 1.5
+    font-size: 13px
+  aside 
+    display: block
+    float: right
+    width: 390px
+  blockquote 
+    margin: 1em 2em
+    max-width: 476px
+  blockquote p 
+    color: #666
+    max-width: 460px
+  hr 
+    width: 540px
+    text-align: left
+    margin: 0 auto 0 0
+    color: #999
+
+
+
+
 // Post
 
 #post
@@ -182,12 +245,18 @@ video#bgvid
     &:hover
       background-color: #333
 
+  textarea#job_description 
+    min-height: 250px      
+
 .panel
   background-color: rgba(119, 160, 254, 0.1)
   border-radius: 5px
   border: none
   h3, p
     color: #77a0fe
+
+
+
 
 // Edit Jobs
 

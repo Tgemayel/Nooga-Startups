@@ -12,6 +12,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'simple_form'
+gem 'redcarpet'
 gem 'devise'
 gem 'cancancan', '~> 1.10'
 gem 'kaminari'

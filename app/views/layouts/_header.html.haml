@@ -9,7 +9,8 @@
       %li= link_to "Places", pages_places_path
       %li= link_to 'Twitter', "http://twitter.com/noogastartups"
       - if user_signed_in?
+        %li 
+          %a{href: "/users/edit"} | 
+            = image_tag current_user.gravatar_url(:size => 30)
       - else
-      %li 
-        %a{href: "/users/edit"} | 
-          = image_tag current_user.gravatar_url(:size => 30)
+        %li

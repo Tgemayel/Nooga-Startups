@@ -37,7 +37,10 @@
             Please send a short note introducing yourself and why this position appeals to you. Include a resume, and links to code samples and a link to a portfolio if you have one.
           %p
             Applicants must be authorized to work in the United States.
-          %a.button{href: "#"} Apply to this job
+          
+          .button.mail-to
+            = mail_to @job.email, "Apply to this job"
+        
           %a.button{href: "/pages/jobs"} Back to job board
 
 

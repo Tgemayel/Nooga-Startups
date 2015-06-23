@@ -20,6 +20,7 @@ gem 'kaminari'
 gem 'gravtastic'
 
 
+gem 'rails_12factor', group: :production
 
 group :development, :test do
   gem 'byebug'

@@ -1,0 +1,30 @@
+default: &default
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  pool: 5
+  timeout: 5000
+
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: noogastartups_development
+  pool: 5
+  username: 
+  password:
+
+test: &TEST
+  adapter: postgresql
+  encoding: utf8
+  database: noogastartups_test
+  pool: 5
+  username: 
+  password:
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: noogastartups_production
+  pool: 5
+  username: 
+  password:

@@ -1,0 +1,43 @@
+%section#page
+  .row
+    .large-12.columns
+      %h1 Job Post
+      = link_to "Home", root_path
+      = link_to "Edit", edit_job_path(@job)
+      = link_to "Delete", job_path(@job), method: :delete, data: { confirm: "Are you sure you want to delete this job?" }
+
+  .row
+    .large-10.columns{role: "content"}
+      %h3= @job.title
+      .row
+        .large-10.columns
+          %h4.location
+            = @job.company
+      .row
+        .large-10.columns
+          %p
+            Posted: June 12, 2014 
+          %hr
+  .row
+    .large-10.columns.job-post{role: "content"}
+      %h3
+        Job Description:
+      .row
+        .large-10.columns
+          %p 
+            = markdown_to_html @job.description   
+
+  .row
+    .large-10.columns{role: "content"}
+      %h3
+        How to apply:
+      .row
+        .large-10.columns
+          %p
+            Please send a short note introducing yourself and why this position appeals to you. Include a resume, and links to code samples and a link to a portfolio if you have one.
+          %p
+            Applicants must be authorized to work in the United States.
+          %a.button{href: "#"} Apply to this job
+          %a.button{href: "/pages/jobs"} Back to job board
+
+

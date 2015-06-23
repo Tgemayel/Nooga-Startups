@@ -1,0 +1,60 @@
+%section#post
+  .row
+    .large-12.columns
+      %h1
+        Submit a Job
+
+  .row
+    .large-8.columns
+      .section-container.tabs
+        %section.section
+          .content
+            = simple_form_for(@job, html: {class: 'form-horizontal'}) do |f|
+              // = f.collection_select :category_id, Category.all, :id, :name, {prompt: "Choose a Category"}
+              .row.collapse
+                .large-3.columns
+                  %label.inline Job Title
+                .large-9.columns
+                  = f.input :title, placeholder: 'Developer, Designer', label: false 
+              .row.collapse
+                .large-3.columns 
+                  %label.inline Job Location
+                .large-9.columns    
+                  = f.input :location, placeholder: "Example: 'Chattanooga', 'Remote' ", label: false 
+              .row.collapse
+                .large-3.columns
+                  %label.inline Description
+                .large-9.columns  
+                  = f.input :description, rows: "20", label: false, placeholder: 'add some markdown for lists, headers, etc.'
+              .row.collapse
+                .large-3.columns
+                  %label.inline Company Name
+                .large-9.columns  
+                  = f.input :company, label: false
+              .row.collapse
+                .large-3.columns
+                  %label.inline Company URL
+                .large-9.columns 
+                  = f.input :url, label: false 
+              .row.collapse
+                .large-3.columns
+                  %label.inline Apply URL
+                .large-9.columns    
+                  = f.input :email, placeholder: 'user@domain.com', label: false 
+
+              = f.button :submit, :class => "a button left"
+
+            
+
+      %a{href: "/pages/jobs"} Back to job board
+
+
+    .large-4.columns
+      .panel
+        %h3 Why post a job?
+        %br/
+        %p Nooga startups is a  Job Board, by the community for the community.
+
+        %p When you post on this board, your job post is tweeted to the Nooga Startups twitter account and will be put in the job section of the Nooga startups website for one month.
+
+        %p Nooga Startups is the best resource to fill your positions with motivated and passionate developers and designers who love their craft.

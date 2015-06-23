@@ -1,0 +1,20 @@
+!!!
+%html
+  %head
+    %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}/
+    %title= content_for?(:title) ? yield(:title) : "Nooga Startups"
+    %meta{content: content_for?(:description) ? yield(:description) : "Nooga Startups", name: "description"}/
+    = favicon_link_tag 'favicon.ico'
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'vendor/modernizr'
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+    %script{src: "//use.typekit.net/lhq0hfv.js", type: "text/javascript"}
+    :javascript
+      try{Typekit.load();}catch(e){}
+
+  %body
+    %header= render 'layouts/header'
+    = render 'layouts/messages'
+    = yield
+    = render 'layouts/footer'

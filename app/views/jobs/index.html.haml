@@ -1,0 +1,37 @@
+%section#jobs
+  .row
+    .large-12.columns
+      %h1
+        Jobs
+  .row
+    .large-8.columns
+      .row.collapse
+        .small-10.columns
+          %input{placeholder: "Search jobs, companies, or locations...", type: "text"}/
+        .small-2.columns
+          %a.button.postfix{href: "#"} Go
+      .row
+        .small-12.columns
+          %table
+            %thead
+              %tr
+                %th{width: "300"} Description
+                %th{width: "200"} Company
+                %th{width: "150"} Date
+            %tbody
+              - @jobs.each do |job|
+                %tr
+                  %td= link_to job.title, job
+                  %td= job.company
+                  // %td date posted 
+                  %td 2 June
+
+    .large-4.columns
+      %a.button{href: "/jobs/new"} Submit a job
+      %p
+        Nooga Startups is a job board, open sourced for developers and designers.
+      %p
+        Find a position at a startup with motivated and passionate developers and designers who love their craft.
+      %p
+        Questions or comments please contact us
+        %a{href: "#@lamppostgroup.com?subject=Nooga Startups Job Board"}here.

@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.0'
-gem 'sqlite3'
 gem 'pg'
 gem 'pg_search'
 gem 'foundation-rails', '5.4.5'

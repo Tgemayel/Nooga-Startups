@@ -2,9 +2,11 @@
   .row
     .large-12.columns
       %h1 Job Post
+    - if user_signed_in?
       = link_to "Home", root_path
       = link_to "Edit", edit_job_path(@job)
       = link_to "Delete", job_path(@job), method: :delete, data: { confirm: "Are you sure you want to delete this job?" }
+    - else  
 
   .row
     .large-10.columns{role: "content"}

@@ -23,22 +23,35 @@ Software is eating the world and the most successful economies of tomorrow are b
 
 # How can I run this project?
 
-First, make sure that you have ruby installed locally 
+First, make sure that you have ruby & rails dependecies installed locally. Before generating your application, you will need:
 
-        ruby -v 
+* The Ruby language – version 2.2
+* The Rails gem – version 4.2
 
-Then grab the dependecies with bundler 
+See this article [Installing Rails](http://railsapps.github.io/installing-rails.html) for instructions about setting up Rails and your development environment. If you're running an outdated version of Ruby, see this article [Updating to Rails 4.2](http://railsapps.github.io/updating-rails.html) 
+
+## Setting up your database 
+
+Use SQLite for development on Mac or Linux, unless you already have PostgreSQL installed locally (which we use for production deploys). You can easily change the database later if you select SQLite to start.
 
 
-        bundle install 
+## Installing NoogaStartups locally
 
-Next, run the rails server & navigate to port 3000
+Once you have Rails on your machine, running the project locally is three commands:
 
-        bundle exec rails s 
+Grab the dependecies with bundler 
+
+        bundle install
+
+Next create the database and run a migration
+
+        bundle exec rake db:create db:migrate
+
+Finally, run the rails server & navigate to port 3000
+  
         # server running on localhost:3000
-
-
-
+        bundle exec rails s 
+        
 
 # How can I get my startup added to this list?
 

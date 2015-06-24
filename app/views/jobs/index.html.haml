@@ -25,7 +25,9 @@
                   %td= link_to job.title, job
                   %td= job.company
                   // %td date posted 
-                  %td 2 June
+                  %td= job.created_at.strftime("%b. %d")
+
+
 
     .large-4.columns
       %a.button{href: "/jobs/new"} Submit a job

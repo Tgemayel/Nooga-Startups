@@ -16,7 +16,7 @@
       .row
         .large-10.columns
           %p
-            Posted: June 12, 2014 
+            Posted: June 12, 2014
           %hr
   .row
     .large-10.columns.job-post{role: "content"}
@@ -24,8 +24,8 @@
         Job Description:
       .row
         .large-10.columns
-          %p 
-            = markdown_to_html @job.description   
+          %p
+            = markdown_to_html @job.description
 
   .row
     .large-10.columns{role: "content"}
@@ -37,10 +37,10 @@
             Please send a short note introducing yourself and why this position appeals to you. Include a resume, and links to code samples and a link to a portfolio if you have one.
           %p
             Applicants must be authorized to work in the United States.
-          
+
           .button.mail-to
             = mail_to @job.email, "Apply to this job"
-        
-          %a.button{href: "/pages/jobs"} Back to job board
+
+          %a.button{href: "/jobs"} Back to job board
 
 

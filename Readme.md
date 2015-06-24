@@ -6,9 +6,7 @@ Welcome to Nooga Startups, a directory of the awesome startups located in Chatta
 
 [Chattanooga](http://goo.gl/maps/lb6o7), fondly known as the 'Noog, 'Nooga, or simply "The Paris of Southeast Tennessee". Chattanooga is home to a number of great startups, a fantastic outdoor scene, delicious food, and some great whiskey.
 
-Interesting Facts about Chattanooga:
-------------------------------------
-
+## Interesting Facts about Chattanooga:
  - The world's first coca-cola bottling plant opened here in 1899.
  - The annual [Riverbend Music Festival](http://www.riverbendfestival.com/) is consistently rated as one of the best festivals in the country.
  - World-class kayaking and climbing is located within thirty minutes of the city.
@@ -57,6 +55,8 @@ Finally, run the rails server & navigate to port 3000
 
 The easiest way is to submit a [pull request](https://github.com/Tgemayel/Nooga-Startups/pulls). Tweet [@NoogaStartups](http://twitter.com/noogastartups) if you need help.
 
+When submitting your [pull request](https://github.com/Tgemayel/Nooga-Startups/pulls), make sure your image is 600x400 to keep all images consistent in size.
+
 Please note that at this time we are only looking for product-focused tech startups featuring a website our users can visit to learn more.
 
 For those new to GitHub (we've all been there):
@@ -83,6 +83,8 @@ For those new to GitHub (we've all been there):
 
 6. If merged, head to [Nooga Startups](http://noogastartups.com) and enjoy your handy-work!
 If commented, make sure to make the following changes and re-submit!
+
+
 
 # I want to get involved
 

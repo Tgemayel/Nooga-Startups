@@ -1,12 +1,14 @@
 .row
-  .small-2.columns
+  .text-center.small-12.medium-2.large-1.columns
     %h2
       %a{href: "/"} N
-  .small-10.columns
+  .small-12.medium-10.large-11.columns
     %ul.inline-list
       %li= link_to "About", pages_about_path
       %li= link_to "Jobs", jobs_path
       %li= link_to "Places", pages_places_path
+      %li
+        %a{:href => "https://twitter.com/noogastartups"}Twitter
       %li= link_to "Sign Up", new_user_registration_path
       - if user_signed_in?
         %li
